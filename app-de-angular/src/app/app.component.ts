@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { WeatherforecastService } from './weatherforecast.service';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +10,13 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'app-de-angular';
+  weatherForecastService = inject(WeatherforecastService);
+  climas: any[] = [];
+
+  constructor(){
+    this.weatherForecastService.obtenerClima().subscribe(datos => {
+      this.climas = datos;
+    });
+  }
+
 }

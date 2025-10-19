@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +34,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MiWebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "MiWebAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-18T23:59:56.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "MiWebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Program.cs",
               "RelativeToolTip": "MiWebAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T23:29:52.806Z",
               "EditorCaption": ""
