@@ -4,7 +4,8 @@ using MiWebAPI.Entidades;
 
 namespace MiWebAPI.Controllers
 {
-    [Route("api/laptops")]   
+    [Route("api/laptops")]
+    [ApiController]
     public class LaptopsControllers: ControllerBase
     {
         private readonly ApplicationDbContext context;
@@ -17,12 +18,29 @@ namespace MiWebAPI.Controllers
         [HttpGet]
         public async Task<List<Laptop>> Get()
         {
+            //await Task.Delay(2000);
             return await context.Laptops.ToListAsync();
         }
+
+        [HttpGet("{nombre}/existe")]
+        public async Task<ActionResult<bool>> ExisteLaptopConNombre(string nombre, int id)
+        {
+            await Task.Delay(3000);
+            if(id == 0)
+            {
+            return await context.Laptops.AnyAsync(x => x.Nombre == nombre);
+            } else
+            {
+                return await context.Laptops.AnyAsync(x => x.Nombre == nombre && x.Id != id);
+            }
+         
+        }
+
 
         [HttpGet("{id:int}", Name = "ObtenerLaptopPorId")]
         public async Task<ActionResult<Laptop>> Get(int id)
         {
+            //await Task.Delay(2000)
             var laptop = await context.Laptops.FirstOrDefaultAsync(x => x.Id == id);
 
             if (laptop is null)
@@ -34,8 +52,17 @@ namespace MiWebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<CreatedAtRouteResult> Post([FromBody] Laptop laptop)
+        public async Task<IActionResult> Post([FromBody] Laptop laptop)
         {
+            var yaExisteLaptopConNombre = await context.Laptops.AnyAsync(x => x.Nombre == laptop.Nombre);
+
+            if (yaExisteLaptopConNombre)
+            {
+                var MensajeDeError = $"Ya existe una laptop con el nombre {laptop.Nombre}";
+                ModelState.AddModelError(nameof(laptop.Nombre), MensajeDeError);
+                return ValidationProblem(ModelState);
+            }
+
             context.Add(laptop);
             await context.SaveChangesAsync();
             return CreatedAtRoute("ObtenerLaptopPorId", new { id = laptop.Id }, laptop);
@@ -50,6 +77,16 @@ namespace MiWebAPI.Controllers
             if (!existeLaptop)
             {
                 return NotFound();
+            }
+
+            var yaExisteLaptopConNombre = await context.Laptops
+                .AnyAsync(x => x.Nombre == laptop.Nombre && x.Id != id);
+
+            if (yaExisteLaptopConNombre)
+            {
+                var mensajeDeError = $"Ya existe una laptop con el nombre {laptop.Nombre}";
+                ModelState.AddModelError(nameof(laptop.Nombre), mensajeDeError);
+                return ValidationProblem(ModelState);
             }
 
             laptop.Id = id;
