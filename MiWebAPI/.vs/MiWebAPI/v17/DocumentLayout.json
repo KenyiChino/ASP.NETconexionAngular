@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\controllers\\laptopscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\controllers\\laptopscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\migrations\\20251023070739_tablalaptops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\migrations\\20251023070739_tablalaptops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\entidades\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\entidades\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\miwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\miwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|c:\\users\\tuf\\desktop\\proyectos github\\proyecto43\\asp.netconexionconangular\\miwebapi\\miwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606C4A02-8ABD-4227-9CEE-DE8351989345}|MiWebAPI\\MiWebAPI.csproj|solutionrelative:miwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,29 +54,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "MiWebAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\appsettings.Development.json",
-              "RelativeToolTip": "MiWebAPI\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-18T23:59:56.526Z",
+              "DocumentIndex": 0,
+              "Title": "LaptopsControllers.cs",
+              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Controllers\\LaptopsControllers.cs",
+              "RelativeDocumentMoniker": "MiWebAPI\\Controllers\\LaptopsControllers.cs",
+              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Controllers\\LaptopsControllers.cs",
+              "RelativeToolTip": "MiWebAPI\\Controllers\\LaptopsControllers.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:11:23.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "20251023070739_TablaLaptops.cs",
+              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Migrations\\20251023070739_TablaLaptops.cs",
+              "RelativeDocumentMoniker": "MiWebAPI\\Migrations\\20251023070739_TablaLaptops.cs",
+              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Migrations\\20251023070739_TablaLaptops.cs",
+              "RelativeToolTip": "MiWebAPI\\Migrations\\20251023070739_TablaLaptops.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwBcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:07:40.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Laptop.cs",
+              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Entidades\\Laptop.cs",
+              "RelativeDocumentMoniker": "MiWebAPI\\Entidades\\Laptop.cs",
+              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Entidades\\Laptop.cs",
+              "RelativeToolTip": "MiWebAPI\\Entidades\\Laptop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T06:51:41.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MiWebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\MiWebAPI.csproj",
+              "RelativeDocumentMoniker": "MiWebAPI\\MiWebAPI.csproj",
+              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\MiWebAPI.csproj",
+              "RelativeToolTip": "MiWebAPI\\MiWebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-23T06:50:38.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "MiWebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\Program.cs",
               "RelativeToolTip": "MiWebAPI\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACAAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T23:29:52.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T06:41:22.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MiWebAPI\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MiWebAPI\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T06:28:26.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MiWebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\TUF\\Desktop\\PROYECTOS GITHUB\\Proyecto43\\ASP.NETconexionconAngular\\MiWebAPI\\MiWebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "MiWebAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-18T23:59:56.526Z"
             }
           ]
         }
